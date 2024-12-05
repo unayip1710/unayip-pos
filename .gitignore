@@ -53,6 +53,7 @@ local.properties
 # Intellij
 ######################
 .idea/
+.idea
 *.iml
 *.iws
 *.ipr
@@ -63,6 +64,8 @@ local.properties
 # Visual Studio Code
 ######################
 .vscode/
+.vscode/*
+!.vscode/extensions.json
 
 ######################
 # Maven
@@ -139,3 +142,24 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
+
+######################
+# npm yarn
+######################
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+dist
+dist-ssr
+*.local
+
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
